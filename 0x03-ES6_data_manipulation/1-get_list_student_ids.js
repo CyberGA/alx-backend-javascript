@@ -1,6 +1,6 @@
 const getListStudentIds = (arr) => {
   if (!Array.isArray(arr)) {
-     return [];
+    return [];
   }
   return arr.map((ele) => ele.id);
 };
